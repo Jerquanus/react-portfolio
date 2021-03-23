@@ -1,22 +1,47 @@
 import React from "react";
 import "./style.css";
-import { Link, useLocation } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function Navbar() {
-const location = useLocation();
+
+  const activeStyle = {
+    backgroundColor: 'white',
+    color: 'black',
+    fontWeight: 800
+  }
+
+  const links = [
+    {
+      to: '/home',
+      innerHTML: 'Home'
+    },
+    {
+      to: '/about',
+      innerHTML: 'About'
+    },
+    {
+      to: '/projects',
+      innerHTML: 'Projects'
+    },
+    {
+      to: '/resume',
+      innerHTML: 'Resume'
+    },
+    {
+      to: '/contact',
+      innerHTML: 'Contact'
+    }
+  ]
+
+  const linkMap = links.map((el, index)=> {
+    return (
+      <NavLink key={index} to={el.to} activeStyle={activeStyle}>{el.innerHTML}</NavLink>
+    )
+  })
+
   return (
-    <div class="nav">
-
-      <a href="#home">Home</a>
-
-      <a href="#about">About Me</a>
-
-      <a href="#projects">Projects</a>
-
-      <a href="#resume">Resume</a>
-
-      <a href="#contact">Contact Me</a>
-
+    <div className="nav">
+      {linkMap}
     </div>  
   );
 }

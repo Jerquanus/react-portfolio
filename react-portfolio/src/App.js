@@ -1,12 +1,9 @@
 import React from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { HashRouter as Router, Route } from "react-router-dom";
 import Navbar from "./Components/Navbar/Navbar";
 import Header from "./Components/Header/Header";
-import Banner from "./Components/Banner/Banner";
-// import About from "./pages/About";
-// import Portfolio from "./pages/Portfolio/index";
-// import Contact from "./pages/Contact/index";
-// import Footer from "./components/Footer/Footer";
+import About from "./Pages/About/About";
+import Home from "./Pages/Home"
 import './App.css';
 
 function App() {
@@ -15,12 +12,9 @@ function App() {
       <div>
         <Header />
         <Navbar />
-        <Banner />
-        {/* <Route exact path="/" component={About} />
+        <Route exact path="/" component={Home} />
+        <Route exact path="/home" component={Home} />
         <Route exact path="/about" component={About} />
-        <Route exact path="/projects" component={Portfolio} />
-        <Route exact path="/contact" component={Contact} /> */}
-        {/* <Footer /> */}
       </div>
    </Router>
   );

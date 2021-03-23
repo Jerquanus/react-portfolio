@@ -1,0 +1,11 @@
+.backdrop {
+  background-color: lightcoral;
+  border-radius: 8px;
+  margin: 5px;
+  border: 0px;
+  padding: 10px;
+  height: 300px;
+  width: 100%;
+  border: 20px solid fuchsia;
+  color: white;
+}

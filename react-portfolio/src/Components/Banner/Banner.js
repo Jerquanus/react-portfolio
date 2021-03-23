@@ -1,7 +1,7 @@
 import React from "react";
 import LongBanner from "../../Assets/images/swannheader.jpg"
-
 import "./style.css"
+// set up banner 
 function Banner () {
     return (
         <div >        
