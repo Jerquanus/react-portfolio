@@ -7,7 +7,7 @@ function ProjectCard (props) {
             <Card style= {{ width: '400px'}}>
                 <Card.Img variant="top" src="{props.img}"/>
                 <Card.Body>
-                    <Card.Title>{props.project}</Card.Title>
+                    <Card.Title>{props.title}</Card.Title>
                     <Card.Text>
                         {props.description}
                     </Card.Text>

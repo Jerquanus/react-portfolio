@@ -3,13 +3,12 @@ import Container from "react-bootstrap/Container";
 import ProjectCard from "../../Components/Projects/ProjectCard";
 import ProjectInfo from "../../Utils/ProjectInfo";
 
-function Work() {
-
+function Work(props) {
+    const projects = props.ProjectInfo;
   return (
         <Container>
-            {ProjectInfo.map((project) => (
+            {projects.map((work) => (
                 <ProjectCard>
-                    project={project}
                     key={ProjectInfo.id}
                     title={ProjectCard.title}
                     description={ProjectCard.description}
