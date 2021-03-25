@@ -4,8 +4,8 @@ import { Card, Button } from "react-bootstrap";
 function ProjectCard (props) {
     return (
         <div>
-            <Card style= {{ width: '400px'}}>
-                <Card.Img variant="top" src="{props.img}"/>
+            <Card style= {{ width: '350px'}}>
+                <Card.Img variant="top" src={props.img} alt={props.title}/>
                 <Card.Body>
                     <Card.Title>{props.title}</Card.Title>
                     <Card.Text>
