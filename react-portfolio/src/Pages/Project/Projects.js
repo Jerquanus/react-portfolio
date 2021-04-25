@@ -2,6 +2,7 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import ProjectCard from "../../Components/Projects/ProjectCard";
 import ProjectInfo from "../../Utils/ProjectInfo";
+import "./style.css";
 
 function Work() {
     const projects = ProjectInfo;
@@ -17,9 +18,12 @@ function Work() {
     ));
  
   return (
-    <Container>
-        {createcard}
-    </Container>
+      
+    <div className="hold">
+        <Container>
+            {createcard}
+        </Container>
+    </div>
     );
 }
 

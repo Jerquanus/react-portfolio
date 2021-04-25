@@ -9,3 +9,30 @@
   border: 20px solid fuchsia;
   color: white;
 }
+.container {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+/* .grid {
+  display: grid;
+  /* border: 1px solid black; */
+  /* max-width: 800px; */
+  /* grid-template-columns: 4fr 8fr;
+  grid-gap: 20px;
+  padding: 30px;
+  background-color: rgba(0, 0, 0, .05);
+} */ */
+
+.pic {
+  margin-top: 10px;
+  max-height: auto;
+  min-width: auto;
+  max-block-size: 1260px;
+  object-fit: contain;
+}
+
+.talking {
+  font-size: 25px;
+}
