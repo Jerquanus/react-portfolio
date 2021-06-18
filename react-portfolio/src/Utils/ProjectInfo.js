@@ -1,4 +1,4 @@
-
+// Collect information on the projects 
 import Notetaker from "../Assets/images/notetaker.png"
 
 export const ProjectInfo = [

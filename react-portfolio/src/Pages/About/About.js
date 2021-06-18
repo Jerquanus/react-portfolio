@@ -5,13 +5,35 @@ import swann from "../../Assets/images/sunswann.jpg";
 
 function About (){
     return(
-        <div className="container">   
+        <div className="aboutContainer">   
            <div className="grid"> 
-                <div> 
+                <div className="picDiv"> 
                     <img className="pic" src = {swann} alt="Jerquanus"  />
                 </div>
+
+                <div className="skills">
+                    <div style={{color:'white'}}>
+                        <h1 className="skillHeadline">SKILLS</h1>
+                        <div>
+                            <h2>
+                                Front End
+                            </h2>
+                            <p>
+                                (insert front end skills)
+                            </p>
+                        </div>
+                        <div>
+                            <h2>
+                                Back End
+                            </h2>
+                            <p>
+                                (insert backend skills)
+                            </p>
+                        </div>
+                    </div>
+                </div>
             
-                <div style={{color:'white'}} className="talking">
+                <div className="talking" style={{color:'white'}}>
 
                     <p>
                         Hey, I'm Jerquanus (aka Jerry) and if you're here - well that obviously means you wanted to know a little more about who I am.
@@ -23,8 +45,8 @@ function About (){
                         I have well over a decade of retail/grocery store experience with 
                         a little management experience sprinkled in there as well. 
 
-                        I've recently completed the University of North Carolina at Charlotte's 6 month intensive "Coding Bootcamp" - where I concentrated 
-                        on becoming a fullstack web developer. 
+                        In April of 2021 I completed the University of North Carolina at Charlotte's 24 week intensive "Coding Bootcamp" - where I concentrated 
+                        on becoming a fullstack web developer. Now I am focused on developing my front end development skills.
                         This is a huge industry change for me but I'm not afraid to work my way from the bottom to get to where I want to be.
                         I'm a creative person and I love watching my visions come to life. 
                     </p>
@@ -37,10 +59,7 @@ function About (){
            </div>
         </div>
     )
-    
-
-    
-}
+};
 
 
 
