@@ -17,7 +17,7 @@ export const ProjectInfo = [
         title: "JAMS EDUCATIONAL TOOL",
         img: Jams,
         description: "React Project, with password authentication",
-        github: "https://github.com/Jerquanus/",
+        github: "https://github.com/Jerquanus/jams",
         link: "https://jams-app.herokuapp.com/"
     },
     {
@@ -25,7 +25,7 @@ export const ProjectInfo = [
         title: "Message Transcript",
         img: Message,
         description: "Using React hooks to pull information from an API to create a message transcript",
-        github: "https://github.com/Jerquanus/notetaker",
+        github: "https://github.com/Jerquanus/Message-Transcript",
         link: "https://jerquanus.github.io/Message-Transcript/"
     }
 ]
