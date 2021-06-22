@@ -1,56 +1,33 @@
 // Collect information on the projects 
 import Notetaker from "../Assets/images/notetaker.png"
+import Jams from "../Assets/images/jams.png"
+import Message from "../Assets/images/message.png"
 
 export const ProjectInfo = [
     {
         id: 1,
         title: "Notetaker",
         img: Notetaker,
-        description: "ETC",
+        description: "Allows uses to create, saved, and delete notes",
         github: "https://github.com/Jerquanus/notetaker",
         link: "https://jerquanus-notetaker.herokuapp.com/"
     },
     {
         id: 2,
-        title: "example 2",
-        img: Notetaker,
-        description: "etc",
+        title: "JAMS EDUCATIONAL TOOL",
+        img: Jams,
+        description: "React Project, with password authentication",
         github: "https://github.com/Jerquanus/",
-        link: "https://jerquanus-notetaker.herokuapp.com/"
+        link: "https://jams-app.herokuapp.com/"
     },
     {
         id: 3,
-        title: "Ex.3",
-        img: Notetaker,
-        description: "ETC",
+        title: "Message Transcript",
+        img: Message,
+        description: "Using React hooks to pull information from an API to create a message transcript",
         github: "https://github.com/Jerquanus/notetaker",
-        link: "https://jerquanus-notetaker.herokuapp.com/"
-    },
-    {
-        id: 4,
-        title: "ex 4",
-        img: Notetaker,
-        description: "ETC",
-        github: "https://github.com/Jerquanus/notetaker",
-        link: "https://jerquanus-notetaker.herokuapp.com/"
-    },
-    {
-        id: 5,
-        title: "ex. 5",
-        img: Notetaker,
-        description: "etc",
-        github: "https://github.com/Jerquanus/notetaker",
-        link: "https://jerquanus-notetaker.herokuapp.com/"
-    },
-    {
-        id: 6,
-        title: "ex. 6",
-        img: Notetaker,
-        description: "etc",
-        github: "https://github.com/Jerquanus/notetaker",
-        link: "https://jerquanus-notetaker.herokuapp.com/"
+        link: "https://jerquanus.github.io/Message-Transcript/"
     }
-
 ]
 
 export default ProjectInfo;

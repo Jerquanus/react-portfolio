@@ -1,3 +1,9 @@
+.contactContainer{
+    padding: 200px;
+    justify-content: center;
+    margin-left: 100px;
+}
+
 .contactContainer .aTag{
     position: relative;
     padding: 10px 30px;
@@ -26,8 +32,8 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 10px;
-    height: 10px;
+    width: 25px;
+    height: 25px;
     border-top: 1px solid lightsalmon;
     border-left: 1px solid lightsalmon;
     transition: 0.5s;

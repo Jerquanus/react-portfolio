@@ -14,7 +14,7 @@ function Resume () {
       </div>
 
       <div className = "resumeButton">
-        
+        <h1>VIEW RESUME</h1>
         <a href = "https://docs.google.com/document/d/1S7BnpSYfGr8pyP9A_lxEmjLPOMI2YdeoTT8gHOz9va8/edit?usp=sharing" 
             target="_blank" rel="noopener noreferrer"
           >View or Download Resume

@@ -16,16 +16,15 @@ function Work() {
              github={work.github}
              link={work.link}
             />
-    ));
+  ));
  
   return (
-      
     <div className="hold">
             <Container>
                 {createcard}
             </Container>
     </div>
-    );
-}
+  );
+};
 
 export default Work;

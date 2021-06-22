@@ -18,17 +18,28 @@ function About (){
                             <h2>
                                 Front End
                             </h2>
-                            <p>
-                                (insert front end skills)
-                            </p>
+                            
+                            <ul>
+                                <li> REACT JS</li>
+                                <li> JAVASCRIPT</li>
+                                <li> CSS3</li>
+                                <li> HTML 5</li>
+                            </ul>
+                            
                         </div>
                         <div>
                             <h2>
                                 Back End
                             </h2>
-                            <p>
-                                (insert backend skills)
-                            </p>
+                            <ul>
+                                <li> Express </li> 
+                                <li> Node </li>
+                                <li> Restful API's</li>
+                                <li> AJAX </li>
+                                <li> MySQL</li>
+                                <li> Sequelize</li>
+                                <li> MongoDB &amp; Mongoose</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -37,8 +48,8 @@ function About (){
 
                     <p>
                         Hey, I'm Jerquanus (aka Jerry) and if you're here - well that obviously means you wanted to know a little more about who I am.
-                        I'm a pisces sun and a tarus moon, I love long walks on th... wait wrong site. But seriously, I come from a small country 
-                        town in North Carolina called Johnsonville. It's locacted in between Sanford and Fayetteville.
+                        I'm a Pisces sun and a Tarus moon, I love long walks on th... wait wrong site. But seriously, I come from a small country 
+                        town in North Carolina called Johnsonville. It's located in between Sanford and Fayetteville.
                     </p>
         
                     <p>

@@ -20,20 +20,23 @@
   margin-top: 10px;
 }
 .pic {
-  /* margin-top: 35px; */
-  /* max-height: auto;
-  min-width: auto; */
-  /* max-block-size: 500px; */
+  padding-left: 25px;
   object-fit: contain;
 }
 .skills { 
   grid-area: 1 / 2 / 6 / 3; 
   margin-left: 30px;
+  padding-right: 50px;
+  
+}
+.skillHeadline{
+  margin-top: 5px;
 }
 
-/* .skillHeadline {
-  
-} */
+h2{
+  color: black;
+  background-color: linen;
+}
 
 .talking {
   grid-area: 6 / 1 / 11 / 3;
@@ -41,5 +44,21 @@
   flex-wrap: wrap;
   font-size: 25px;
   color: white;
-  width: 800px;
+  padding-left: 25px;
+  padding-right: 50px;
 }
+
+/* ---- Change ul bullet color ----- */
+ul {
+  list-style: none; /* Remove default bullets */
+  font-size: larger;
+}
+
+ul li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: white; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  font-size: larger;
+  display: inline-block; /* Needed to add space between the bullet and the text */
+}
+
